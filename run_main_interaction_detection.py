@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import pathlib
-from utils.img_utils import resize_one, read_classes, interaction_time, \
+from img_utils import resize_one, read_classes, interaction_time, \
                             process_yolo_frame, calculate_time
 # Video Read and Writer
 root_path = pathlib.Path.home()
